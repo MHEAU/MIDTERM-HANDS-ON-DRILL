@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background-color: #393838;
+}
+.container{
+    margin: 0 auto;
+    width: 60%;
+    background-color: rgb(255, 255,255);
+    text-align: center ;
+    height: 1900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    text-align: center;
+    padding: 10px;
+    display: inline-flex;
+}
+.header .header-text h6, h3{
+margin:3px;
+}
+.header-text{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+.logo{
+    position: relative;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.main-title h3{
+letter-spacing: 10px;
+font-weight: bolder;
+}
+.reg-no{
+    margin-right: 6.5in;
+    margin-top: -10px;
+}
+.reg-no span{
+    color: rgb(160, 6, 6);
+}
+#table-area{
+    margin-top: -10px;
+}
+table, td, th {
+    border: 1px solid;
+
+}
+table{
+    margin-top: 0;
+    width: 92%;
+    border-collapse: collapse;
+
+}
+#table-area th{
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+background-color: #afb3d6;
+color: black;
+font-size: 15px;
+}
+#table-area ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 2px;
+}
+li{
+    margin-left: 3px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+li span{
+    margin-left:10px
+}
+.college-inline{
+    display: inline;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
